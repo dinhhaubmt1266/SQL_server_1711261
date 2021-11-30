@@ -272,7 +272,7 @@ SELECT * FROM dbo.tangluonggiamsat('Nguyen Duy');
 
 
 
---4.2.hien thi tong so nguoi la viec tren i nam
+--4.2.hien thi tong so nguoi lam viec tren i nam
 
 
 select  MaSo, HoVaTenLot +' '+Ten as HoTen, (select YEAR(GETDATE())-YEAR(NgayBatDauLamViec)) as SoNamLV
